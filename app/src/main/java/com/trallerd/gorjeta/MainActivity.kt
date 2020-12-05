@@ -14,8 +14,8 @@ class MainActivity : AppCompatActivity() {
             if (!TextUtils.isEmpty(valor.text.toString())) {
                 if (!TextUtils.isEmpty(gorjeta.text.toString())) {
                     if (!TextUtils.isEmpty(pessoa.text.toString())) {
-                        val valor = valor.text.toString().toFloat()
-                        val percentualGorjeta = gorjeta.text.toString().toFloat()
+                        val valor = valor.text.toString().toDouble()
+                        val percentualGorjeta = gorjeta.text.toString().toDouble()
                         val pessoas = pessoa.text.toString().toInt()
 
                         val gorjeta = valor * (percentualGorjeta / 100)
