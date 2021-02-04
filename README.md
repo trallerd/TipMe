@@ -1,8 +1,8 @@
 # TipMe
 > App Calcula a gorjeta com base no valor da conta!
 
- - Faz diviso por pessoa
- - Indica total da compra
+ - Faz divisão por pessoa
+ - Indica total da conta
  - Valor da gorjeta a ser dada
 
 ### About me
